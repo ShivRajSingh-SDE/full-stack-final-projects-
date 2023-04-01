@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald&family=Teko&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+    justify-content: center;
+    display: flex; 
+}
+.content{
+    width:600px;
+}
+.main h1{
+    margin-top: 20px;
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    color: goldenrod;
+}
+#con1{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.plus_icon{
+    height: 20px;
+    color: black;
+    background-color: palevioletred;
+    display: flex;
+
+}
+.far fa-plus-sqaure{
+    color: black; 
+    height: 20px;
+
+}
+#span-btn{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(218, 165, 32, 0.276) ;
+    border-radius: 6px;
+    float: right;
+}
+#con1div{
+    background-color: azure;
+    align-items: center;
+    display: flex;
+}
+#que1{
+    margin: 6px;
+}
+.res1{
+    padding: 6px;
+    border-radius: 0px 0px 22px 22px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.407);
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.177);
+    transition: 1s;
+    display: flex;
+    /* background-color: azure; */
+    height: 158px;
+    /* background-color: aqua; */
+}
+
+/* cons 2--- */
+#con2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.res2{
+    padding: 6px;
+    transition: 1s;
+    border-radius: 0px 0px 22px 22px;
+    /* background-color: aqua; */
+    background-color: rgba(255, 255, 255, 0.407);
+    
+    height: auto;
+    justify-content: center;
+    display: flex;
+
+}
+#con3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.res3{
+    justify-content: center;
+    padding: 6px;
+    display: flex;
+    transition: 1s;
+    border-radius: 0px 0px 22px 22px;
+    background-color: rgba(255, 255, 255, 0.407);
+    height: 158px;
+}
+.hidden {
+    display: none;
+  }

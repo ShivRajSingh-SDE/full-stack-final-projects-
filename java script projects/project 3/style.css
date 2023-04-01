@@ -1,0 +1,135 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: navy;
+}
+.logo{
+    justify-content: center;
+    display: flex;
+    transition: 0.9s;
+
+    /* background-color: aqua; */
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    
+    flex-direction: row;
+    position: relative;
+}
+.navigation ul{
+    gap: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+ 
+.navigation ul li a {
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+
+}
+.navigation ul li{
+    margin: 10px;
+}  
+.navigation ul li:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    /* width: 100%; */
+    /* background-color: rgba(0, 255, 255, 0.292); */
+
+} 
+
+.navigation ul li a:hover{
+    box-shadow: 0 3px white;
+    border-radius: 3px;
+    padding: 15px 15px;
+
+    transition: 0.3s;
+    letter-spacing: 2px;
+}
+
+
+
+
+nav {
+    background-color: #33333300;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#ham {
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+body{
+    background-color: yellow;
+}
+
+@media (max-width:800px) {
+    #ham{
+        display: flex;
+    }
+    .navigation ul{
+        position: fixed;
+        left: -100%;
+        top: 60px;
+        gap: 0;
+        flex-direction: column;
+        background-color: navy;
+        width: 80%;
+        box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.42);
+        border-radius:10px;
+        text-align: center;
+        transition: 0.2s;
+
+    }
+        
+    .navigation ul li{
+        height: 50px;
+        
+        border-radius: 13px;
+        margin: 16px;
+        /* box-shadow:0 1px white ; */
+    }
+    .navigation ul {
+        /* ... */
+        transform: translateX(-100%);
+        /* ... */
+      }
+      
+}
+
+
+
+    
+
+

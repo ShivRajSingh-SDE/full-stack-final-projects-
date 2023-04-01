@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Oswald&family=Teko&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    /* background-image: url(https://e0.pxfuel.com/wallpapers/46/343/desktop-wallpaper-simple-awesome-background-simple-cool-simple-hipster.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    justify-content: space-around;
+    display: flex;
+}
+
+#h1 {
+    font-family: 'Dancing Script', cursive;
+
+    color: goldenrod;
+    justify-content: center;
+    display: flex;
+}
+
+#div1 {
+    padding: 5px;
+    border-radius: 12px;
+    background-color: white;
+    width: 270px;
+}
+
+#div1 img {
+    height: 200px;
+    background-color: black;
+}
+
+#img1div {
+    justify-content: center;
+    display: flex;
+}
+
+#div1inner {
+    background-color: white;
+}
+
+#name {
+    justify-content: center;
+    display: flex;
+}
+
+#price {
+    justify-content: center;
+    display: flex;
+}
+
+#info {
+    justify-content: center;
+    display: flex;
+}
+
+#adj {
+    justify-content: space-around;
+    display: flex;
+
+}
+
+#div2 {
+    padding: 5px;
+    background-color: white;
+    width: 270px;
+}
+
+#div2 img {
+    height: 200px;
+    background-color: black;
+}
+
+
+
+@media (max-width: 600px) {
+    #adj{
+        flex-direction: column;
+    }
+
+    /* #sec2 {
+        flex-direction: column;
+    } */
+
+
+}
+#div1 ,#div2{
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+
+}
+#div2:hover{
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+    box-shadow:  0 10px 10px 10px white;
+    
+}
+#div1:hover{
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+    box-shadow:  0 10px 10px 10px white;
+
+}
+
